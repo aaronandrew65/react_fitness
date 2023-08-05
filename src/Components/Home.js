@@ -1,6 +1,6 @@
 import React from "react";
-import BannerBackground from "../Assets/home-banner-background.png";
-import BannerImage from "../Assets/home-banner-image.png";
+import BannerBackground from "../Assets/mountains_behind.png";
+// import BannerImage from "../Assets/weight.webp";
 import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
 
@@ -14,18 +14,18 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Your Favoitre Food Delivered Hot & Fresh!
+            Altitude Fitness
           </h1>
           <p className="primary-text">
-            Healthy meals prepared by real chefs!
+            Take the next steps to a better life!
           </p>
           <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
+            Check Us Out <FiArrowRight />{" "}
           </button>
         </div>
-        <div className="home-image-section">
+        {/* <div className="home-image-section">
           <img src={BannerImage} alt="" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

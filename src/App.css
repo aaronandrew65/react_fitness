@@ -70,10 +70,10 @@ nav {
   top: -100px;
   right: -170px;
   z-index: -2;
-  max-width: 700px;
+  max-width: 900px;
 }
 .home-image-section {
-  max-width: 600px;
+  max-width: 100%;
   flex: 1;
 }
 .home-text-section {
@@ -97,7 +97,7 @@ nav {
 }
 .secondary-button {
   padding: 1rem 2.5rem;
-  background-color: #fe9e0d;
+  background-color: #6c4881;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -115,7 +115,7 @@ nav {
   font-size: 1.5rem;
 }
 .secondary-button:hover {
-  background-color: #e48f0f;
+  background-color: #491c63;
 }
 .about-section-container {
   margin-top: 20rem;
@@ -141,7 +141,7 @@ nav {
 }
 .primary-subheading {
   font-weight: 700;
-  color: #fe9e0d;
+  color: #6c4881;
   font-size: 1.15rem;
 }
 .about-buttons-container {
@@ -199,12 +199,10 @@ nav {
   margin: 6rem 0rem;
   display: flex;
   margin-top: 10rem;
-}
-.footer-logo-container {
-  max-width: 110px;
+  border-top: 2px solid #6c4881;
 }
 .footer-icons {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
 }
 .footer-icons svg {
   font-size: 1.5rem;

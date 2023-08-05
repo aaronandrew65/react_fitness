@@ -1,34 +1,33 @@
 import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
+import PickMeals from "../Assets/Numbers 1.png";
+import ChooseMeals from "../Assets/Numbers 2.png";
+import DeliveryMeals from "../Assets/Numbers 3.png";
 
 const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      title: "$9.99/month",
+      text: "Basic gym access to all strength and cardio equipment.",
     },
     {
       image: ChooseMeals,
-      title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      title: "$14.99/month",
+      text: "Includes basic access PLUS pool and sauna access. ",
     },
     {
       image: DeliveryMeals,
-      title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      title: "$19.99/month",
+      text: "Includes gym, pool, sauna PLUS unlimited group training. ",
     },
   ];
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Work</p>
-        <h1 className="primary-heading">How It Works</h1>
+        <p className="primary-subheading">Memberships</p>
+        <h1 className="primary-heading">What We Offer!</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Choose the membership right for you!
         </p>
       </div>
       <div className="work-section-bottom">
